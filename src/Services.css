@@ -1,0 +1,67 @@
+.services-container {
+background-color: #f9f9f9;
+}
+
+.services-container h1 {
+    /* padding-left: 0.5em !important; */
+    font-family: 'Playfair Display', serif;
+    /* font-weight: lighter; */
+    color: #501357;
+}
+
+.services-section {
+    display: flex;
+    align-items: flex-start; /* Align items to the start to handle varying text heights */
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 2rem;
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.services-section .image-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 16.5%;
+    align-self: stretch; /* Make the image container stretch to match the text container */
+}
+
+.services-section .image-container img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100%; /* Limit height to the container's height */
+}
+
+.services-section .text-container {
+    flex-basis: 83.5%;
+    text-align: justify;
+    /* Add max-height and overflow to ensure text container dictates the height */
+    /* max-height: 300px; Adjust as needed */
+    overflow: auto;
+}
+
+.services-section .text-container p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    /* font-weight: 200; */
+    /* color: #355013; */
+    /* margin-bottom: 1rem; */
+    text-align: justify;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .services-section .image-container img {
+        /* Adjust the image for mobile */
+        object-fit: contain; /* Ensure it covers the full width */
+        object-position: 50% 30%; /* Shift image to the right */
+        height: 20em; /* Adjust height automatically */
+    }
+
+    .services-section .image-container, .services-section .text-container {
+        flex-basis: 100%;
+    }
+
+    .services-section {
+        flex-direction: column;
+    }
+}

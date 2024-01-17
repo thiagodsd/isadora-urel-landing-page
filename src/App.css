@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/*
+header nav ul li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+header nav ul li:not(:last-child) {
+  border-right: 0.1rem solid white;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+} */
+
+header nav ul li button {
+  background: none;
+  border: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  /* padding: 0 1rem; */
+  padding: 8px 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header nav ul li:not(:last-child) button {
+  border-right: 0.1rem solid white;
+}
+
+header nav ul li button:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #810e13;
+}
+
+/* Hero Section Styles */
+.hero-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.hero-text {
+  max-width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 5rem; /* Adjusted for better responsiveness */
+  color: #501357;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.hero-text h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.hero-text p {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* align image to center */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero-image img {
+  max-width: 50%;
+  height: auto;
+  object-fit: contain; 
+}
+
+/* Atendimento Button Styles */
+.atendimento-button {
+  background-color: #501357;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.atendimento-button:hover {
+  background-color: #ffffff;
+  color: #810e13;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header nav {
+    padding: 0 1em;
+  }
+
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 4rem; /* Smaller font size for mobile */
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .hero-text p {
+    font-size: 1rem; /* Smaller font size for mobile */
+  }
+}
