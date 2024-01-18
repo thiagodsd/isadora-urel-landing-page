@@ -22,7 +22,10 @@ const Header = () => {
     };
 
     const [isMenuVisible, setIsMenuVisible] = useState(false);
-    const toggleMenu = () => setIsMenuVisible(!isMenuVisible);
+    const toggleMenu = () => {
+        setIsMenuVisible(!isMenuVisible);
+        document.querySelector('.hamburger-icon').blur();
+    }
 
     return (
         <header>
