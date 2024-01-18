@@ -1,7 +1,7 @@
 import { LoremIpsum } from 'lorem-ipsum';
 import React from 'react';
 import '../Services.css'; // Ensure to create this CSS file
-import image from '../assets/images/arvi.png';
+import image from '../assets/images/services_tree_01.png';
 
 function ServicesSection() {
     const lorem = new LoremIpsum();
