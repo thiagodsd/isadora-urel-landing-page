@@ -22,15 +22,13 @@ const Header = () => {
     };
 
     const [isMenuVisible, setIsMenuVisible] = useState(false);
-    const toggleMenu = () => {
-        setIsMenuVisible(!isMenuVisible);
-    };
+    const toggleMenu = () => setIsMenuVisible(!isMenuVisible);
 
     return (
         <header>
             <nav>
-                <span className="hamburger-icon" onClick={toggleMenu}>&#9776;</span>
-                <ul className={isMenuVisible ? 'visible' : ''}>
+                <span className={`hamburger-icon ${isMenuVisible ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</span>
+                <ul className={`menu ${isMenuVisible ? 'visible' : ''}`}>
                     <li><button onClick={() => navigateAndLog('#services', 'services')}>Serviços</button></li>
                     <li><button onClick={() => navigateAndLog('#about', 'about')}>Sobre</button></li>
                     <li><button onClick={() => navigateAndLog('#contact', 'contact')}>Contato</button></li>

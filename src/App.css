@@ -25,6 +25,11 @@ header {
   cursor: pointer;
 }
 
+.hamburger-icon.active {
+  /* Optional style change when active */
+  color: #501357; /* Example: Lighter color when active */
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -176,22 +181,29 @@ header nav ul li button:hover {
 
   header nav {
     display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
-  header nav ul {
+  header nav ul.menu {
     display: none;
     flex-direction: column;
     width: 100%;
+    transition: max-height 0.5s ease-in-out; /* Smooth transition */
+    overflow: hidden;
+    max-height: 0rem; /* Initial state */
   }
 
-  header nav ul.visible {
-    display: flex;
-}
+  header nav ul.menu.visible {
+      display: flex;
+      max-height: 13rem; /* Adjust as needed */
+  }
 
   .hamburger-icon {
-    display: block;
+      display: block;
+  }
+
+  header nav ul li:not(:last-child) button {
+    border-right: none;
   }
 }
