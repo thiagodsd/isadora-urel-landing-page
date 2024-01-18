@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 
@@ -15,18 +15,22 @@ const firebaseConfig = {
 const Header = () => {
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
-    
     const navigateAndLog = (target, label) => {
         window.location.href = target;
-
         console.log(`navigating to ${label}`);
-
         logEvent(analytics, `landing-page_header-click_${label}`);
     };
+
+    const [isMenuVisible, setIsMenuVisible] = useState(false);
+    const toggleMenu = () => {
+        setIsMenuVisible(!isMenuVisible);
+    };
+
     return (
         <header>
             <nav>
-                <ul>
+                <span className="hamburger-icon" onClick={toggleMenu}>&#9776;</span>
+                <ul className={isMenuVisible ? 'visible' : ''}>
                     <li><button onClick={() => navigateAndLog('#services', 'services')}>Serviços</button></li>
                     <li><button onClick={() => navigateAndLog('#about', 'about')}>Sobre</button></li>
                     <li><button onClick={() => navigateAndLog('#contact', 'contact')}>Contato</button></li>
