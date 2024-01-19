@@ -1,15 +1,11 @@
 .contact-container  {
-    /* background-color: #c0b1c0; */
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 2rem;
 }
 
 .contact-container h1 {
-    /* padding-left: 0.5em !important; */
     font-family: 'Playfair Display', serif;
-    /* font-weight: lighter; */
     color: #501357;
-    /* color: #355013; */
 }
 
 .contact-section {
@@ -18,17 +14,12 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 0.5rem;
-    /* padding: 1rem; */
     transition: all 0.3s ease-in-out;
 }
 
 .service {
     background-color: #ffffff;
-    flex-basis: 30%; /* Each service takes up roughly a third of the container */
-    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); Optional: for styling */
-    /* margin: 10px;
-    padding: 20px; */
-    /* padding: 1rem; */
+    flex-basis: 30%;
     text-align: center;
 }
 

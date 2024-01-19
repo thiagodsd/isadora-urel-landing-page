@@ -1,63 +1,55 @@
-.about-container {
-background-color: #f9f9f9;
-}
+/* .about-container {
+    background-color: #f9f9f9;
+} */
 
 .about-container h1 {
-    /* padding-left: 0.5em !important; */
     font-family: 'Playfair Display', serif;
-    /* font-weight: lighter; */
     color: #501357;
 }
 
 .about-section {
     display: flex;
-    align-items: flex-start; /* Align items to the start to handle varying text heights */
+    align-items: flex-start;
     justify-content: space-around;
     gap: 3rem;
     padding: 2rem;
-    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+    transition: all 0.3s ease-in-out;
 }
 
 .image-container {
     display: flex;
     justify-content: center;
     flex-basis: 33%;
-    align-self: stretch; /* Make the image container stretch to match the text container */
+    align-self: stretch;
 }
 
 .image-container img {
     width: 100%;
-    object-fit: cover; /* Cover to ensure the image fills the container */
-    max-height: 100%; /* Limit height to the container's height */
+    object-fit: cover;
+    max-height: 100%;
 }
 
 .text-container {
     flex-basis: 66%;
     text-align: justify;
-    /* Add max-height and overflow to ensure text container dictates the height */
-    /* max-height: 300px; Adjust as needed */
     overflow: auto;
 }
 
 .text-container p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
-    /* font-weight: 200; */
-    /* color: #355013; */
-    /* margin-bottom: 1rem; */
     text-align: justify;
 }
 
-/* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .image-container img {
-        /* Adjust the image for mobile */
-        object-fit: cover; /* Ensure it covers the full width */
-        object-position: 50% 30%; /* Shift image to the right */
-        height: 20em; /* Adjust height automatically */
+        object-fit: cover;
+        object-position: 50% 30%;
+        height: 20em;
     }
 
-    .image-container, .text-container {
+    .image-container,
+    .text-container {
         flex-basis: 100%;
     }
 
