@@ -24,7 +24,10 @@ function App() {
             {/* Future components like <Features /> and <Contact /> can be added here */}
         </main>
         {/* <Footer /> can be added later when created */}
+        <div className="back-to-top-back">
         <div className="back-to-top" onClick={scrollToTop} aria-label="Back to top"></div>
+        </div>
+        
 
     </div>
   );
