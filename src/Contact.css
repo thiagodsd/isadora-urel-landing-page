@@ -17,13 +17,13 @@
     transition: all 0.3s ease-in-out;
 }
 
-.service {
+.contact {
     background-color: #ffffff;
     flex-basis: 30%;
     text-align: center;
 }
 
-.service h3 {
+.contact h3 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: normal;
@@ -31,7 +31,7 @@
     margin-bottom: 1rem;
 }
 
-.service p {
+.contact p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     font-weight: 200;
@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 768px) {
-    .service {
+    .contact {
         flex-basis: 100%; /* Each service takes full width on small screens */
     }
 }

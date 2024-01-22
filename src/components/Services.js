@@ -1,12 +1,12 @@
 import React from 'react';
 import '../Services.css'; // Ensure to create this CSS file
 
-import image_0 from '../assets/images/services_tree_00.png';
-import image_1 from '../assets/images/services_tree_01.png';
+import image_0 from '../assets/images/services_tree_00_white.png';
+import image_1 from '../assets/images/services_tree_01_white.png';
 
 function ServicesSection() {
     return (
-        <div className="services-container" id="services">
+        <div className="services-container" id="services" data-aos="fade-up">
             {/* <h1>Sobre</h1> */}
             <div className="services-section">
                 <div className="image-container">

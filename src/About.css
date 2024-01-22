@@ -16,44 +16,44 @@
     transition: all 0.3s ease-in-out;
 }
 
-.image-container {
+.about-container .image-container {
     display: flex;
     justify-content: center;
     flex-basis: 33%;
     align-self: stretch;
 }
 
-.image-container img {
+.about-container .image-container img {
     width: 100%;
     object-fit: cover;
     max-height: 100%;
 }
 
-.text-container {
+.about-container .text-container {
     flex-basis: 66%;
     text-align: justify;
     overflow: auto;
 }
 
-.text-container p {
+.about-container .text-container p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     text-align: justify;
 }
 
 @media (max-width: 768px) {
-    .image-container img {
+    .about-container .image-container img {
         object-fit: cover;
         object-position: 50% 30%;
         height: 20em;
     }
 
-    .image-container,
-    .text-container {
+    .about-container .image-container,
+    .about-container .text-container {
         flex-basis: 100%;
     }
 
-    .about-section {
+    .about-container .about-section {
         flex-direction: column;
     }
 }
