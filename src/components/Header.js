@@ -24,18 +24,16 @@ const Header = () => {
     const [isMenuVisible, setIsMenuVisible] = useState(false);
     const toggleMenu = () => {
         setIsMenuVisible(!isMenuVisible);
-        document.querySelector('.hamburger-icon').blur();
     }
-
-    const hamburger = document.querySelector('.hamburger-icon');
-    hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('clicked');
-    });
 
     return (
         <header>
             <nav>
-                <div className={`hamburger-icon ${isMenuVisible ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</div>
+            <div className={`hamburger ${isMenuVisible ? 'clicked' : ''}`} onClick={toggleMenu}>
+                    <div className="line line-1"></div>
+                    <div className="line line-2"></div>
+                    <div className="line line-3"></div>
+                </div>
                 <ul className={`menu ${isMenuVisible ? 'visible' : ''}`}>
                     <li><button onClick={() => navigateAndLog('#services', 'services')}>Serviços</button></li>
                     <li><button onClick={() => navigateAndLog('#about', 'about')}>Sobre</button></li>
