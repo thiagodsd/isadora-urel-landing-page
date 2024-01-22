@@ -3,7 +3,7 @@ import '../Contact.css'; // Ensure to create this CSS file
 
 function ContactSection() {
     return (
-        <div className="services-container" id="contact">
+        <div className="services-container" id="contact" data-aos="fade-up">
             {/* <h1>Serviços</h1> */}
         <div className="services-section">
             <div className="service">
