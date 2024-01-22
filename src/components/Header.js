@@ -27,10 +27,15 @@ const Header = () => {
         document.querySelector('.hamburger-icon').blur();
     }
 
+    const hamburger = document.querySelector('.hamburger-icon');
+    hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('clicked');
+    });
+
     return (
         <header>
             <nav>
-                <span className={`hamburger-icon ${isMenuVisible ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</span>
+                <div className={`hamburger-icon ${isMenuVisible ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</div>
                 <ul className={`menu ${isMenuVisible ? 'visible' : ''}`}>
                     <li><button onClick={() => navigateAndLog('#services', 'services')}>Serviços</button></li>
                     <li><button onClick={() => navigateAndLog('#about', 'about')}>Sobre</button></li>

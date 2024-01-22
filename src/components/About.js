@@ -5,7 +5,7 @@ import about_image from '../assets/images/landing_page_isa_about.jpg';
 
 function AboutSection() {
     return (
-        <div className="about-container" id="about">
+        <div className="about-container" id="about" data-aos="fade-up">
             {/* <h1>Sobre</h1> */}
             <div className="about-section">
                 <div className="image-container">
