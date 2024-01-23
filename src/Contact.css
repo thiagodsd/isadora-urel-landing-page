@@ -1,11 +1,10 @@
 .contact-container  {
-    /* background-color: #ffffff; */
+    background-color: #501357;
     padding: 2rem;
 }
 
 .contact-container h1 {
     font-family: 'Playfair Display', serif;
-    color: #501357;
 }
 
 .contact-section {
@@ -18,12 +17,12 @@
 }
 
 .contact {
-    background-color: #ffffff;
     flex-basis: 30%;
     text-align: center;
 }
 
 .contact h3 {
+    color : #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: normal;
@@ -32,6 +31,7 @@
 }
 
 .contact p {
+    color : #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     font-weight: 200;
@@ -42,6 +42,6 @@
 
 @media (max-width: 768px) {
     .contact {
-        flex-basis: 100%; /* Each service takes full width on small screens */
+        flex-basis: 100%;
     }
 }
