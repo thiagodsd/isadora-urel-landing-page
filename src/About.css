@@ -42,6 +42,18 @@
 }
 
 @media (max-width: 768px) {
+    .about-container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .about-container .about-section {
+        padding: 0;
+        gap: 1rem;
+    }
+
     .about-container .image-container img {
         object-fit: cover;
         object-position: 50% 30%;
@@ -55,5 +67,9 @@
 
     .about-container .about-section {
         flex-direction: column;
+    }
+
+    .about-container .text-container p {
+        font-size: 1rem;
     }
 }
