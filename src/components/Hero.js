@@ -3,7 +3,7 @@ import React from 'react';
 // import front_image from '../assets/images/cube_green_purple_01.png';
 
 // https://www.freepik.com/premium-vector/property-division-abstract-concept-vector-illustration-divorce-property-agreement-division-spouses-separation-process-lawyer-service-legal-equitable-distribution-abstract-metaphor_24122182.htm
-import front_image from '../assets/images/hero_image.png';
+import front_image from '../assets/images/hero_image_no_hammer.png';
 
 const Hero = () => {
     return (
