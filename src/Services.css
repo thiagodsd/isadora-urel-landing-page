@@ -59,10 +59,7 @@
 
 .services-container {
     background-color: #355013;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .services-container h1 {
@@ -74,15 +71,31 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
-    gap: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     transition: all 0.3s ease-in-out;
 }
 
+.service {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.services-section .image-container {
+    margin-bottom: 1rem;
+}
+
+.services-section .image-container img {
+    width: 66%;
+    object-fit: contain;
+    max-height: 100%;
+}
+/*
 .services-section .image-container {
     display: flex;
     justify-content: center;
-    flex-basis: 11%;
+    align-items: flex-start;
+    flex-basis: 10%;
     align-self: stretch;
 }
 
@@ -96,14 +109,38 @@
     flex-basis: 89%;
     overflow: auto;
 }
-
+*/
 .services-section .text-container p {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.25rem;
     color: #ffffff;
+    text-align:left;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
-@media (max-width: 768px) {
+/*
+.highlight-on-scroll {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.aos-animate .highlight-on-scroll {
+    color: #701350;
+    background-color: #ffffff;
+    font-style: normal;
+}
+*/
+[data-aos="highlight"] {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+[data-aos="highlight"].aos-animate {
+    color: #701350;
+    background-color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
     .services-container {
         padding-left: 0.75rem;
         padding-right: 0.75rem;
@@ -111,7 +148,36 @@
         padding-bottom: 2rem;
     }
 
+    .services-section {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .service {
+        flex-basis: 100%;
+    }
+
     .services-section .image-container {
+        flex-basis: 20%;
+    }
+
+    .services-section .text-container {
+        flex-basis: 80%;
+    }
+
+    .services-section .image-container img {
+        object-fit: contain;
+        max-height: 4rem;
+    }
+
+
+    /* .services-section {
+        flex-direction: row;
+        margin-bottom: 1rem;
+        gap: 1rem;
+    } */
+
+    /* .services-section .image-container {
         flex-basis: 20%;
     }
     .services-section .text-container {
@@ -132,5 +198,9 @@
         object-fit: contain;
         max-height: 4rem;
     }
+
+    .service {
+        flex-basis: 100%;
+    } */
 
 }
