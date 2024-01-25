@@ -1,7 +1,10 @@
 import React from 'react';
 import '../About.css'; 
 import about_image from '../assets/images/landing_page_isa_about.jpg';
-
+import lattes_image from '../assets/images/about_icon_00_lattes.png';
+import instagram_image from '../assets/images/about_icon_01_instagram.png';
+import linkedin_image from '../assets/images/about_icon_02_linkedin.png';
+import youtube_image from '../assets/images/about_icon_03_youtube.png';
 
 function AboutSection() {
     return (
@@ -10,6 +13,20 @@ function AboutSection() {
             <div className="about-section">
                 <div className="image-container">
                     <img src={about_image} alt="About Us" />
+                    <div className="about-icons">
+                        <a href="https://www.linkedin.com/in/isadora-urel-6b1b1b1b/" target="_blank" rel="noreferrer">
+                            <img src={linkedin_image} alt="About Us" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/isadora-urel-6b1b1b1b/" target="_blank" rel="noreferrer">
+                            <img src={instagram_image} alt="About Us" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/isadora-urel-6b1b1b1b/" target="_blank" rel="noreferrer">
+                            <img src={youtube_image} alt="About Us" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/isadora-urel-6b1b1b1b/" target="_blank" rel="noreferrer">
+                            <img src={lattes_image} alt="About Us" />
+                        </a>
+                    </div>
                 </div>
                 <div className="text-container">
                     <p>

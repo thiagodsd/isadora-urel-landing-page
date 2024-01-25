@@ -204,7 +204,7 @@ header nav ul li button:hover {
 
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     header {
         padding-left: 0rem;
         padding-right: 0rem;
@@ -320,6 +320,7 @@ header nav ul li button:hover {
         color: #ffffff;
         font-family: 'Abril Fatface', serif;
         font-weight: lighter;
+        margin-bottom: auto;
     }
 
     .hero-text h2 {
