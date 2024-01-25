@@ -14,8 +14,8 @@ function AboutSection() {
                 <div className="image-container">
                     <img src={about_image} alt="About Us" />
                     <div className="about-icons">
-                        <a href="https://www.linkedin.com/in/isadora-urel-6b1b1b1b/" target="_blank" rel="noreferrer">
-                            <img src={linkedin_image} alt="About Us" />
+                        <a href="https://www.linkedin.com/in/isadoraurel/" target="_blank" rel="noreferrer">
+                            <img src={linkedin_image} alt="Perfil no LinkedIn" />
                         </a>
                         <a href="https://www.linkedin.com/in/isadora-urel-6b1b1b1b/" target="_blank" rel="noreferrer">
                             <img src={instagram_image} alt="About Us" />
@@ -30,23 +30,15 @@ function AboutSection() {
                 </div>
                 <div className="text-container">
                     <p>
-                        Com 33 anos de idade, sou Isadora Urel, muito prazer!
+                        Sou Isadora Urel, advogada apaixonada pelo universo jurídico, por onde transito em ambas as esferas do ensino e da advocacia.
                     </p>
                     <br/>
                     <p>
-                        Sou mestre e doutora pela renomada PUC-SP, especializada em direito das famílias e sucessões. Além disso, completei vários cursos de mediação, focando em métodos alternativos de resolução de conflitos e extrajudicialização de demandas. Esta formação me permitiu alcançar uma taxa de sucesso de 70% em acordos nos casos em que atuo, buscando sempre soluções criativas, satisfatórias e duradouras, que evitam o agravamento de conflitos.
+                        Minha jornada começou na Faculdade Integradas Antônio Eufrásio de Toledo, onde me formei em Direito. Desde então, me dediquei a aprofundar meus conhecimentos, tornando-me <b>duplamente especialista em Direito de Família e Sucessões e em Direito e Processo Penal</b>. Meu amor por essas áreas me levaram a conquistar os títulos de <b>Mestra e Doutora pela Pontifícia Universidade Católica de São Paulo</b>. No mundo acadêmico atuo como escritora, palestrante e professora universitária.
                     </p>
                     <br/>
                     <p>
-                        Minha carreira jurídica é pautada pela constante busca pela excelência e atualização contínua em legislações e tendências jurídicas. Ofereço aos meus clientes soluções legais claras, estratégicas e criativas, sempre visando superar as expectativas com um serviço jurídico de alta qualidade.
-                    </p>
-                    <br/>
-                    <p>
-                        A empatia e compreensão são essenciais na minha prática. Trato cada cliente com o máximo respeito e integridade, proporcionando um ambiente acolhedor e compreensivo. Esta abordagem é reforçada pela minha experiência pessoal com o divórcio, que me oferece uma visão íntima e realista das complexidades emocionais dessas situações.
-                    </p>
-                    <br/>
-                    <p>
-                        Minha jornada no direito é enriquecida por experiências diversas, incluindo minha paixão anterior pela dança como ex-bailarina, o que me proporcionou uma perspectiva única sobre disciplina e expressão. Além disso, atuo como professora e palestrante, compartilhando meu conhecimento e experiências, o que me permite manter uma visão ampla e atualizada do campo jurídico, auxiliando inclusive profissionais da área a melhorar sua atuação.
+                        Atuo principalmente no <b>consultivo e contencioso nas áreas de Direito de Família e Sucessões</b>. Minha abordagem é sempre personalizada, buscando compreender a fundo as necessidades de cada cliente, do planejamento matrimonial ao patrimonial. Com <b>mais de uma década de experiência</b>, meu objetivo é oferecer soluções jurídicas eficientes e humanizadas, sempre pautadas na ética e na excelência profissional. Seja em situações desafiadoras ou momentos de celebração, estou aqui para garantir que seus direitos e interesses sejam protegidos e respeitados.
                     </p>
                 </div>
             </div>

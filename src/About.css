@@ -24,10 +24,17 @@
     gap: 1rem;
 }
 
-.about-container .image-container img {
+/* .about-container .image-container img {
     width: 100%;
     object-fit: cover;
     max-height: 66%;
+} */
+
+.about-container .image-container img {
+    object-fit: cover;
+    height: 25rem;
+    max-width: 100%;
+    object-position: 50% 30%;
 }
 
 .about-container .image-container .about-icons {
@@ -50,8 +57,9 @@
 
 .about-container .text-container p {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.25rem;
     text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 @media (max-width: 1024px) {
@@ -80,7 +88,8 @@
     }
 
     .about-container .text-container p {
-        font-size: 1rem;
+        font-size: 0.85rem;
+        line-height: 1.25;
     }
 
     .about-section .image-container .about-icons {

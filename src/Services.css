@@ -167,6 +167,11 @@
         max-height: 6rem;
     }
 
+    .services-section .text-container p {
+        font-size: 0.85rem;
+        line-height: 1.25;
+    }
+
 
     /* .services-section {
         flex-direction: row;

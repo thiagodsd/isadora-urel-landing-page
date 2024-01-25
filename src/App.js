@@ -13,13 +13,13 @@ function App() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth',
-            duration: 1500
+            duration: 1234
         });
     };
 
     useEffect(() => {
         AOS.init({
-            duration : 1500
+            duration : 1234
         });
     }, []);
     return (
