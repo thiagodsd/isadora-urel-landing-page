@@ -1,0 +1,49 @@
+.whatsapp-container  {
+    background-color: #ffffff;
+    padding: 4rem;
+}
+
+.whatsapp-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem; */
+    gap: 4rem;
+}
+
+.whatsapp-section .whatsapp-image img {
+    width: 8rem;
+    height: auto;
+}
+
+.whatsapp-section .whatsapp-text {
+    display: flex;
+}
+
+.whatsapp-section .whatsapp-text a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: #501357;
+    font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+    .whatsapp-container {
+        padding: 1rem;
+    }
+
+
+    .whatsapp-section .whatsapp-image img {
+        width: 2rem; 
+        height: auto;
+    }
+
+    .whatsapp-section .whatsapp-text a {
+        font-size: 2rem;
+    }
+
+}

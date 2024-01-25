@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
+// import Footer from './components/Footer';
+import WhatsApp from './components/WhatsApp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
@@ -13,13 +15,13 @@ function App() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth',
-            duration: 1234
+            duration: 1200
         });
     };
 
     useEffect(() => {
         AOS.init({
-            duration : 1234
+            duration : 1200
         });
     }, []);
     return (
@@ -30,9 +32,9 @@ function App() {
             <Services/>
             <About/>
             <Contact/>
-            {/* Future components like <Features /> and <Contact /> can be added here */}
+            <WhatsApp/>
         </main>
-        {/* <Footer /> can be added later when created */}
+        {/* <Footer /> */}
         <div className="back-to-top-back">
             <div className="back-to-top" onClick={scrollToTop} aria-label="Back to top"></div>
         </div>
