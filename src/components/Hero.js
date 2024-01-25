@@ -36,7 +36,8 @@ const Hero = () => {
                 <h1>Isadora Urel</h1>
                 <h2>Especialista em Direito das Famílias, Sucessões &amp; Planejamento Patrimonial</h2>
                 {/* <p>Guarda de Menores &#x2022; Divórcio &#x2022; Partilha de Bens &#x2022; Testamentos e Heranças &#x2022; Contrato de União Estável &#x2022; Regime de Bens</p> */}
-                <p>Com uma abordagem humanizada e multidisciplinar, vou traçar estratégias jurídicas para os momentos mais importantes da sua família, em especial com casais, ex-casais e filhos. O compromisso do meu trabalho é o bem-estar presente e futuro de todos os envolvidos e do seu patrimônio, com foco em soluções  equilibradas e que tragam segurança em cada etapa do processo.</p>
+                <p>Com uma abordagem humanizada e multidisciplinar, vou traçar estratégias jurídicas para os momentos mais importantes da sua família, em especial com casais, ex-casais e filhos.</p>
+                {/* <p>O compromisso do meu trabalho é o bem-estar presente e futuro de todos os envolvidos e do seu patrimônio, com foco em soluções  equilibradas e que tragam segurança em cada etapa do processo.</p> */}
                 <button className="atendimento-button" onClick={() => navigateAndLog('#contact', 'contact')}>Atendimento</button>
             </div>
             <div className="hero-image">
