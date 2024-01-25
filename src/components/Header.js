@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 
+import logo_image from '../assets/images/logo_02_white.png';
+
 const firebaseConfig = {
     apiKey: "AIzaSyBc8fI1SlSsWzf5KG_Rly6eu5ostIcybLQ",
     authDomain: "isadora-urel-landing-page.firebaseapp.com",
@@ -29,6 +31,12 @@ const Header = () => {
     return (
         <header>
             <nav>
+            <div className="logo">
+                <a href="/">
+                    <img src={logo_image} alt="icone de arvore minimalista" />
+                </a>
+                <p>Isadora Urel</p>
+            </div>  
             <div className={`hamburger ${isMenuVisible ? 'clicked' : ''}`} onClick={toggleMenu}>
                     <div className="line line-1"></div>
                     <div className="line line-2"></div>
