@@ -59,7 +59,7 @@
 
 .services-container {
     background-color: #355013;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .services-container h1 {
@@ -89,6 +89,7 @@
     width: 66%;
     object-fit: contain;
     max-height: 100%;
+    margin-bottom: 1rem;
 }
 /*
 .services-section .image-container {
@@ -113,9 +114,15 @@
 .services-section .text-container p {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    text-align:left;
-    font-size: 1rem;
-    line-height: 1.5;
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.services-section .image-container p {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: justify;
 }
 
 /*
@@ -169,7 +176,7 @@
 
     .services-section .text-container p {
         font-size: 0.85rem;
-        line-height: 1.25;
+        line-height: 2;
     }
 
 
