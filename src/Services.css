@@ -142,10 +142,7 @@
 
 @media (max-width: 1024px) {
     .services-container {
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding: 1rem;
     }
 
     .services-section {
@@ -167,7 +164,7 @@
 
     .services-section .image-container img {
         object-fit: contain;
-        max-height: 4rem;
+        max-height: 6rem;
     }
 
 

@@ -5,6 +5,8 @@ import '../Services.css';
 
 import image_0 from '../assets/images/services_tree_00_white.png';
 import image_1 from '../assets/images/services_tree_01_white.png';
+import image_2 from '../assets/images/services_tree_02_white.png';
+import image_3 from '../assets/images/services_tree_03_white.png';
 
 function ServicesSection() {
     useEffect(() => {
@@ -38,7 +40,7 @@ function ServicesSection() {
                 </div>
                 <div className="service">
                     <div className="image-container">
-                        <img src={image_1} alt="About Us" />
+                        <img src={image_2} alt="About Us" />
                     </div>
                     <div className="text-container">
                         <p><b>Estabelecendo Bases Sólidas</b> &mdash; Enraizar é necessário para garantir estabilidade e assegurar o crescimento saudável.</p>
@@ -50,7 +52,7 @@ function ServicesSection() {
                 </div>
                 <div className="service">
                     <div className="image-container">
-                        <img src={image_1} alt="About Us" />
+                        <img src={image_3} alt="About Us" />
                     </div>
                     <div className="text-container">
                         <p><b>Legado</b> &mdash; Com a maturidade vem os frutos e o fortalecimento de novos ciclos.</p>
