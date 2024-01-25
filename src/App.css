@@ -250,6 +250,7 @@ header nav ul li button:hover {
         color: #ffffff;
         padding: 1rem;
         z-index: 5;
+        gap: 0.5rem;
     }
 
     header nav {
@@ -322,17 +323,17 @@ header nav ul li button:hover {
     }
 
     .hero-text h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         background: rgba(0, 0, 0, 0.5); 
     }
 
     .hero-text p {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         background: rgba(0, 0, 0, 0.5); 
     }
 
     .atendimento-button {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     header nav .logo {
