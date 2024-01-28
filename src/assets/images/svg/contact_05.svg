@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   sodipodi:docname="contact_05.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/dusoudeth/Documentos/github/isadora-urel-landing-page/src/assets/images/contact_email.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.796875"
+     inkscape:cx="-36.392157"
+     inkscape:cy="177.56863"
+     inkscape:window-width="1868"
+     inkscape:window-height="1016"
+     inkscape:window-x="52"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1"
+     inkscape:pageshadow="2"
+     inkscape:object-paths="true"
+     inkscape:snap-smooth-nodes="false" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <path
+       style="fill:#9ad6c7;stroke-width:0.977083;fill-opacity:1"
+       d="m 14.632431,405.86991 c -1.89629,-1.10011 -4.53442,-3.58593 -5.8624996,-5.52405 l -2.41468,-3.52385 -0.28849,-138.32901 c -0.19625,-94.10668 0.0379,-139.45809 0.7324,-141.86078 1.4311,-4.95095 4.5942796,-8.62266 9.2501196,-10.73724 3.84407,-1.74589 12.33768,-1.80996 239.950719,-1.80996 227.61304,0 236.10665,0.0641 239.95072,1.80996 4.65584,2.11458 7.81902,5.78629 9.25012,10.73724 0.69451,2.40269 0.92865,47.7541 0.73239,141.86078 l -0.28848,138.32901 -2.42592,3.54026 c -1.33427,1.94714 -4.03226,4.44306 -5.99554,5.54648 l -3.56961,2.00623 -237.78671,-0.0225 -237.786719,-0.0225 z M 449.92387,376.78009 c -4.91664,-4.64967 -138.28897,-120.313 -138.73392,-120.313 -0.27779,0 -10.28416,6.52882 -22.23636,14.50849 -25.92565,17.3088 -27.1218,17.96074 -32.95359,17.96074 -5.83179,0 -7.02795,-0.65194 -32.9536,-17.96074 -11.9522,-7.97967 -21.95856,-14.50849 -22.23636,-14.50849 -0.44494,0 -133.817269,115.66333 -138.733909,120.313 -1.88095,1.77882 2.75608,1.8224 193.923869,1.8224 191.1678,0 195.80482,-0.0436 193.92387,-1.8224 z m -342.68478,-78.1859 c 37.21465,-32.35664 67.663,-59.0228 67.663,-59.25814 0,-0.51315 -15.6403,-10.98799 -86.227589,-57.74947 l -53.4953,-35.43868 v 107.60387 107.60386 l 2.19844,-1.9656 c 1.20914,-1.08108 32.64679,-28.43921 69.861449,-60.79584 z m 369.34571,-98.60868 -0.25255,-53.55033 -69.77722,46.28422 -69.77722,46.28423 2.35848,2.33078 c 1.29717,1.28193 32.69692,28.72655 69.77723,60.98803 l 67.41873,58.65727 0.25255,-53.72194 c 0.13889,-29.54706 0.13889,-77.81957 0,-107.27226 z M 350.22178,195.03172 442.97794,133.3546 H 255.97934 68.980741 l 93.265359,62.02811 c 51.29594,34.11547 93.70504,61.87017 94.24244,61.67713 0.5374,-0.19305 42.71735,-28.1057 93.73324,-62.02812 z"
+       id="path963" />
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+.about-container {
+    padding-left: var(--container-padding-left);
+    padding-right: var(--container-padding-right);
+    padding-top: var(--container-padding-top);
+    padding-bottom: var(--container-padding-bottom);
+    display: var(--container-display);
+    gap: var(--container-gap);
+    background-color: #000;
+}
+
+.about-section {
+    display: var(--section-display);
+    gap: var(--section-gap);
+    align-items: flex-start;
+    justify-content: space-around;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-container .image-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    align-self: stretch;
+    gap: 1rem;
+}
+
+.about-container .image-container img {
+    object-fit: cover;
+    height: 25rem;
+    max-width: 100%;
+    object-position: 50% 30%;
+}
+
+.about-container .image-container .about-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-container .image-container .about-icons a img {
+    width: 2.5rem;
+    height: auto;
+}
+
+.about-container .text-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 66%;
+    text-align: justify;
+    overflow: auto;
+    gap: 1rem;
+}
+
+.about-container .text-container p {
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-secondary);
+    line-height: var(--font-line-height);
+    text-align: justify;
+    color: #fff;
+}
+
+.about-container .text-container p b {
+    color: #9AD6C7;
+}
+
+@media (max-width: 1024px) {
+    .about-container {
+        padding: 1rem;
+    }
+
+    .about-container .about-section {
+        display: var(--section-display);
+        gap: var(--section-gap);
+    }
+
+    .about-container .image-container img {
+        object-fit: cover;
+        object-position: 50% 30%;
+        height: 20em;
+    }
+
+    .about-container .image-container,
+    .about-container .text-container {
+        flex-basis: 100%;
+    }
+
+    .about-container .about-section {
+        flex-direction: column;
+    }
+
+    .about-container .text-container p {
+        font-size: 0.85rem;
+        line-height: 1.25;
+    }
+
+    .about-section .image-container .about-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
