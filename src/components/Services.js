@@ -25,9 +25,9 @@ function ServicesSection() {
                     </div>
                     <div className="text-container">
                         <ul>
+                            <li><p>contratos de técnica de reprodução humana assistida</p></li>
                             <li><p>planos de parto</p></li>
                             <li><p>alimentos gravídicos</p></li>
-                            <li><p>contratos de técnica de reprodução humana assistida</p></li>
                             <li><p>investigações de paternidade</p></li>
                         </ul>
                     </div>

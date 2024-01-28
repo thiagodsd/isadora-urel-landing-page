@@ -12,7 +12,7 @@ const WhatsApp = () => {
     return (
         <div className="whatsapp-container" id="contact">
             <p>
-                Entre em contato indicando o serviço desejado e o melhor horário para contato.
+                Entre em contato indicando o serviço desejado
             </p>
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'flex-start', gap: '3rem' }}>
                 <div className="whatsapp-section">

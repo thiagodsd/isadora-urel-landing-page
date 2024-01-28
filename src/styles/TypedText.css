@@ -17,19 +17,13 @@
 
 @media (max-width: 1200px) {
     .typed-effect-container {
+        flex-basis: var(--mobile-container-flex-basis);
+        flex-direction: var(--mobile-container-flex-direction);
+        padding: var(--mobile-container-padding);
         background-color: #fff;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
     }
-    
+
     .typed-text {
-        /* font-family: 'Parisienne', cursive; */
-        font-family: 'Playfair Display', serif;
-        font-size: 1.75rem;
-        color: #501357;
-        line-height: 1.5;
-        font-weight: 300;
+        font-size: var(--mobile-font-size-medium);
     }
 }

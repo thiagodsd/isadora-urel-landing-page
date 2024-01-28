@@ -38,9 +38,10 @@ function App() {
             <Services/>
             <AboutHeader/>
             <About/>
+            {/* 
             <ContactHeader/>
             <Contact/>
-            <WhatsApp/>
+            <WhatsApp/> */}
         </main>
         <Footer />
         <div className="back-to-top-back">

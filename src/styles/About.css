@@ -64,9 +64,11 @@
     color: #9AD6C7;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
     .about-container {
-        padding: 1rem;
+        flex-basis: var(--mobile-container-flex-basis);
+        flex-direction: var(--mobile-container-flex-direction);
+        padding: var(--mobile-container-padding);
     }
 
     .about-container .about-section {
@@ -90,7 +92,7 @@
     }
 
     .about-container .text-container p {
-        font-size: 0.85rem;
+        font-size: var(--mobile-font-size-medium);
         line-height: 1.25;
     }
 

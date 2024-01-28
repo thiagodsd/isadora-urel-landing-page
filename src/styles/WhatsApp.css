@@ -53,17 +53,19 @@
 
 @media (max-width: 768px) {
     .whatsapp-container {
-        padding: 1rem;
+        flex-basis: var(--mobile-container-flex-basis);
+        flex-direction: var(--mobile-container-flex-direction);
+        padding: var(--mobile-container-padding);
     }
 
 
-    .whatsapp-section .whatsapp-image img {
+    /* .whatsapp-section .whatsapp-image img {
         width: 2rem;
         height: auto;
     }
 
     .whatsapp-section .whatsapp-text a {
         font-size: 2rem;
-    }
+    } */
 
 }
