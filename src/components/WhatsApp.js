@@ -1,4 +1,5 @@
 import React from 'react';
+
 import '../styles/WhatsApp.css';
 
 import contact_instagram_image from '../assets/images/contact_instagram.png';

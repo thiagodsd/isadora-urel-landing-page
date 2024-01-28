@@ -11,9 +11,9 @@ const TypingEffect = ({ text, speed = 100, className }) => {
                 setIndex(index + 1);
             }, speed);
 
-            return () => clearTimeout(timeoutId); // Cleanup on component unmount or before the next effect runs
+            return () => clearTimeout(timeoutId);
         }
-    }, [typedText, index, text, speed]); // Re-run effect when these variables change
+    }, [typedText, index, text, speed]);
 
     return <div className={className}>{typedText}</div>;
 };
