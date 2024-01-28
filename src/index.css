@@ -92,4 +92,27 @@ html, body {
     /* sub-section */
     --sub-section-display: flex;
     --sub-section-gap: 2rem;
+    /* mobile */
+    --mobile-container-display: flex;
+    --mobile-container-flex-direction: column;
+    --mobile-container-flex-basis: 100%;
+    --mobile-container-padding: 1rem; 
+    /* mobile section */
+    --mobile-section-display: flex;
+    --mobile-section-gap: 2rem;
+    --mobile-section-padding: 1rem;
+    /* mobile sub-section */
+    --mobile-sub-section-display: flex;
+    --mobile-sub-section-gap: 1rem;
+    /* mobile spacing */
+    --mobile-spacing-small: 0.5rem;
+    --mobile-spacing-medium: 1rem;
+    --mobile-spacing-large: 2rem;
+    --mobile-spacing-xlarge: 3rem;
+    /* mobile font sizes */
+    --mobile-font-size-small: 0.75rem;
+    --mobile-font-size-medium: 1rem;
+    --mobile-font-size-large: 1.25rem;
+    --mobile-font-size-xlarge: 1.5rem;
+    --mobile-font-size-xxlarge: 2rem;
 }
