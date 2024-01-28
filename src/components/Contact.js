@@ -1,10 +1,11 @@
 import React from 'react';
-import '../styles/Contact.css';
 
 import contact_00_img from '../assets/images/contact_00.png';
 import contact_01_img from '../assets/images/contact_01.png';
 import contact_02_img from '../assets/images/contact_02.png';
 import contact_03_img from '../assets/images/contact_03.png';
+
+import '../styles/Contact.css';
 
 function ContactSection() {
     return (
