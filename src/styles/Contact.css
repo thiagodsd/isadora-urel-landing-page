@@ -1,4 +1,4 @@
-.contact-container  {
+.contact-container {
     padding-left: var(--container-padding-left);
     padding-right: var(--container-padding-right);
     padding-top: var(--container-padding-top);
@@ -36,7 +36,7 @@
     font-family: var(--button-font-family);
     font-size: var(--button-font-size);
     display: block;
-    color : #ffffff;
+    color: #ffffff;
 }
 
 .contact p {
@@ -49,16 +49,18 @@
 
 .contact p b {
     color: #9AD6C7;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 
 @media (max-width: 768px) {
     .contact-container {
-        padding: 1rem;
+        flex-basis: var(--mobile-container-flex-basis);
+        flex-direction: var(--mobile-container-flex-direction);
+        padding: var(--mobile-container-padding);
     }
-    
-    .contact {
+
+    /* .contact {
         flex-basis: 100%;
         flex-direction: column;
     }
@@ -70,5 +72,5 @@
     .contact p {
         font-size: 0.85rem;
         line-height: 1.25;
-    }
+    } */
 }
