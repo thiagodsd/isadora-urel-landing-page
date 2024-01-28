@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 
-import logo_image from '../assets/images/logo_02_white.png';
+import logo_image from '../assets/images/logo_03.png';
 
 const firebaseConfig = {
     apiKey: "***REMOVED***",

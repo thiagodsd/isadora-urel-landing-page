@@ -1,14 +1,12 @@
 import React from 'react';
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
-
-
 // import front_image from '../assets/images/landing_page_isa_00_1080_1600.png';
 // import front_image from '../assets/images/cube_green_purple_01.png';
-
 // https://www.freepik.com/premium-vector/property-division-abstract-concept-vector-illustration-divorce-property-agreement-division-spouses-separation-process-lawyer-service-legal-equitable-distribution-abstract-metaphor_24122182.htm
 // import front_image from '../assets/images/hero_image_no_hammer.png';
-import front_image from '../assets/images/hero_image_isadora_00.png';
+// import front_image from '../assets/images/hero_image_isadora_00.png';
+import front_image from '../assets/images/hero_image_isadora_04.jpg';
 
 const firebaseConfig = {
     apiKey: "***REMOVED***",
@@ -36,7 +34,8 @@ const Hero = () => {
                 <h1>Isadora Urel</h1>
                 <h2>Especialista em Direito das Famílias, Sucessões &amp; Planejamento Patrimonial</h2>
                 {/* <p>Guarda de Menores &#x2022; Divórcio &#x2022; Partilha de Bens &#x2022; Testamentos e Heranças &#x2022; Contrato de União Estável &#x2022; Regime de Bens</p> */}
-                <p>Com uma abordagem humanizada e multidisciplinar, vou traçar estratégias jurídicas para os momentos mais importantes da sua família, em especial com casais, ex-casais e filhos.</p>
+                {/* <p>Com uma abordagem humanizada e multidisciplinar, vou traçar estratégias jurídicas para os momentos mais importantes da sua família, em especial com casais, ex-casais e filhos.</p> */}
+                <p>Com abordagem humanizada e multidisciplinar, vou traçar estratégias jurídicas para os momentos mais importantes da sua família.</p>
                 {/* <p>O compromisso do meu trabalho é o bem-estar presente e futuro de todos os envolvidos e do seu patrimônio, com foco em soluções  equilibradas e que tragam segurança em cada etapa do processo.</p> */}
                 <button className="atendimento-button" onClick={() => navigateAndLog('#contact', 'contact')}>Atendimento</button>
             </div>
