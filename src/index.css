@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 html {
     font-size: 16px;
     scroll-behavior: smooth;
@@ -22,4 +29,67 @@ html, body {
 
 * {
     box-sizing: border-box;
+}
+
+/* 
+#135745
+#574613
+#501357
+#A45FAC
+#9AD6C7
+*/
+
+:root {
+    /* colors */
+    --primary-color: #501357;
+    --secondary-color: #9AD6C7;
+    --tertiary-color: #A45FAC;
+    --quaternary-color: #135745;
+    --quinary-color: #574613;
+    /* font sizes */
+    --font-size-small: 0.75rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.25rem;
+    --font-size-xlarge: 1.5rem;
+    --font-size-xxlarge: 2rem;
+    --font-size-xxxlarge: 3rem;
+    /* font families */
+    --font-family-header: 'Cinzel Decorative', cursive;
+    --font-family-primary: 'Playfair Display', serif;
+    --font-family-secondary: 'Raleway', sans-serif;
+    /* spacing */
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+    --spacing-xlarge: 4rem;
+    --spacing-xxlarge: 8rem;
+    --font-line-height: 1.5rem;
+    /* breakpoints */
+    --breakpoint-small: 576px;
+    --breakpoint-medium: 768px;
+    --breakpoint-large: 992px;
+    --breakpoint-xlarge: 1200px;
+    /* images */
+    --icon-size-small: 1.5rem;
+    --icon-size-medium: 2rem;
+    --icon-size-large: 3rem;
+    --icon-size-xlarge: 4rem;
+    /* button */
+    --button-font-family: 'Cinzel', serif;
+    --button-border-radius: 0.5rem;
+    --button-padding: 8px 15px 8px 15px;
+    --button-font-size: 1.5rem;
+    /* container */
+    --container-display: flex;
+    --container-gap: 2rem;
+    --container-padding-left: 10rem;
+    --container-padding-right: 10rem;
+    --container-padding-top: 2rem;
+    --container-padding-bottom: 2rem;
+    /* section */
+    --section-display: flex;
+    --section-gap: 2rem;
+    /* sub-section */
+    --sub-section-display: flex;
+    --sub-section-gap: 2rem;
 }
