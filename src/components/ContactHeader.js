@@ -3,13 +3,13 @@ import TypingEffect from './TypingEffect';
 
 import '../styles/TypedText.css';
 
-const ContactHeaderSection  = () => {
+const ContactHeaderSection = () => {
     return (
         <div className="typed-effect-container">
-            <TypingEffect 
+            <TypingEffect
                 text="Ofereço soluções jurídicas personalizadas para diversas necessidades e públicos."
-                speed={33} 
-                className="typed-text" 
+                speed={33}
+                className="typed-text"
             />
         </div>
     );
