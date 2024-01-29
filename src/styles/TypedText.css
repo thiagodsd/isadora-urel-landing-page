@@ -25,6 +25,6 @@
 
     .typed-text {
         font-size: var(--mobile-font-size-medium);
-        text-align: center;
+        text-align: left;
     }
 }

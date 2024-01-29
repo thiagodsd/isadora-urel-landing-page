@@ -87,4 +87,12 @@
         text-align: left
     }
 
+    .whatsapp-container p {
+        font-size: var(--mobile-font-size-medium);
+    }
+
+    .whatsapp-section .whatsapp-image img {
+        width: auto;
+        height: var(--icon-size-small);
+    }
 }
