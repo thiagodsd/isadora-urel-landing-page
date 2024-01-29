@@ -93,7 +93,8 @@
 
     .about-container .text-container p {
         font-size: var(--mobile-font-size-medium);
-        line-height: 1.25;
+        text-align: left;
+        line-height: 1.25rem;
     }
 
     .about-section .image-container .about-icons {

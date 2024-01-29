@@ -45,6 +45,7 @@
     font-size: var(--button-font-size);
     display: block;
     color: #ffffff;
+    font-weight: light;
 }
 
 .contact p {
@@ -86,6 +87,11 @@
         flex-direction: column;
         align-items: center;
         flex-basis: 50%;
+    }
+
+    .contact-section .contact-list .contact h2 {
+        font-size: var(--mobile-font-size-large);
+        font-weight: light;
     }
 
     /* 
