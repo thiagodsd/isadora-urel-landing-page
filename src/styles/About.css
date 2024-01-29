@@ -64,7 +64,7 @@
     color: #9AD6C7;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .about-container {
         flex-basis: var(--mobile-container-flex-basis);
         flex-direction: var(--mobile-container-flex-direction);

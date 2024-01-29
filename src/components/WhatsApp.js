@@ -14,7 +14,7 @@ const WhatsApp = () => {
             <p>
                 Entre em contato indicando o serviço desejado
             </p>
-            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'flex-start', gap: '3rem' }}>
+            <div className="whatsapp-list">
                 <div className="whatsapp-section">
                     <a href="https://wa.me/5518991359552" target="_blank" rel="noreferrer">
                         <div className="whatsapp-image">
