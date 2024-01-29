@@ -126,7 +126,7 @@ header nav ul li button:hover {
 .atendimento-button {
     background-color: var(--primary-color);
     padding: var(--button-padding);
-    border-radius: var(--button-border-radius);
+    /* border-radius: var(--button-border-radius); */
     font-family: var(--font-family-secondary);
     text-transform: uppercase;
     font-weight: bold;
