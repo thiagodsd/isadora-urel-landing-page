@@ -11,7 +11,7 @@ function ContactSection() {
     return (
         <div className="contact-container" id="contact" data-aos="fade-up">
             <div className="contact-section">
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: '3rem' }}>
+                <div className="contact-list">
                     <div className="contact">
                         <div className="contact-image">
                             <img src={contact_00_img} alt="Atendimento" />
@@ -42,7 +42,8 @@ function ContactSection() {
                             </p>
                         </div>
                     </div>
-                </div><div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: '3rem' }}>
+                </div>
+                    <div className="contact-list">
                     <div className="contact">
                         <div className="contact-image">
                             <img src={contact_02_img} alt="Parceria" />
