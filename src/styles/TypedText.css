@@ -15,7 +15,7 @@
     line-height: 1.25;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
     .typed-effect-container {
         flex-basis: var(--mobile-container-flex-basis);
         flex-direction: var(--mobile-container-flex-direction);
