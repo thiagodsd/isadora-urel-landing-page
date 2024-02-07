@@ -24,12 +24,12 @@ const WhatsApp = () => {
                             <p>18 9 9135 9552</p>
                         </div>
                     </a>
-                    <a href="mailto:dra.isadora-urel@isadoraurel.adv.br" target="_blank" rel="noreferrer">
+                    <a href="mailto:dra.isadora@isadoraurel.adv.br" target="_blank" rel="noreferrer">
                         <div className="whatsapp-image">
                             <img src={contact_email_image} alt="E-mail" />
                         </div>
                         <div className="whatsapp-text">
-                            <p>dra.isadora-urel@isadoraurel.adv.br</p>
+                            <p>dra.isadora@isadoraurel.adv.br</p>
                         </div>
                     </a>
                 </div>
