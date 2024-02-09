@@ -8,7 +8,7 @@ function AboutSection() {
         <div className="about-container" id="about" data-aos="fade-up">
             <div className="about-section">
                 <div className="image-container">
-                    <img src={about_image} alt="About Us" />
+                    <img src={about_image} alt="Fotografia de Isadora Urel lendo processo jurídico em escritório de advocacia" />
                 </div>
                 <div className="text-container">
                     <p>
