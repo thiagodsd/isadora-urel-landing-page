@@ -33,7 +33,7 @@ const Header = () => {
             <nav>
                 <div className="logo">
                     <a href="/">
-                        <img src={logo_image} alt="icone de arvore minimalista" />
+                        <img src={logo_image} alt="Ícone de arvore minimalista" />
                     </a>
                     <p>Isadora Urel</p>
                 </div>
