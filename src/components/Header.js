@@ -1,28 +1,10 @@
 import React, { useState } from 'react';
-import { initializeApp } from "firebase/app";
-import { getAnalytics, logEvent } from "firebase/analytics";
+import navigateAndLog from './navigateAndLog';
 
 import logo_image from '../assets/images/logo_03.png';
 
-const firebaseConfig = {
-    apiKey: "***REMOVED***",
-    authDomain: "isadora-urel-landing-page.firebaseapp.com",
-    projectId: "isadora-urel-landing-page",
-    storageBucket: "isadora-urel-landing-page.appspot.com",
-    messagingSenderId: "421904175792",
-    appId: "1:421904175792:web:15fa59663b19d545706175",
-    measurementId: "G-1NJ9WHX9N5"
-};
 
 const Header = () => {
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-    const navigateAndLog = (target, label) => {
-        window.location.href = target;
-        console.log(`navigating to ${label}`);
-        logEvent(analytics, `landing-page_header-click_${label}`);
-    };
-
     const [isMenuVisible, setIsMenuVisible] = useState(false);
     const toggleMenu = () => {
         setIsMenuVisible(!isMenuVisible);
@@ -33,7 +15,7 @@ const Header = () => {
             <nav>
                 <div className="logo">
                     <a href="/">
-                        <img src={logo_image} alt="Ícone de arvore minimalista" />
+                        <img src={logo_image} alt="icone de arvore minimalista" />
                     </a>
                     <p>Isadora Urel</p>
                 </div>
@@ -43,9 +25,9 @@ const Header = () => {
                     <div className="line line-3"></div>
                 </div>
                 <ul className={`menu ${isMenuVisible ? 'visible' : ''}`}>
-                    <li><button onClick={() => navigateAndLog('#services', 'services')}>Serviços</button></li>
-                    <li><button onClick={() => navigateAndLog('#about', 'about')}>Sobre</button></li>
-                    <li><button onClick={() => navigateAndLog('#contact', 'contact')}>Contato</button></li>
+                    <li><button onClick={() => navigateAndLog('#services', 'header_services-item')}>Serviços</button></li>
+                    <li><button onClick={() => navigateAndLog('#about', 'header_about-item')}>Sobre</button></li>
+                    <li><button onClick={() => navigateAndLog('#contact', 'header_contact-item')}>Contato</button></li>
                 </ul>
                 {/* <button className="atendimento-button" onClick={() => navigateAndLog('#atendimento', 'atendimento')}>Atendimento</button> */}
             </nav>

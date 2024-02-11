@@ -9,8 +9,8 @@ import About from './components/About';
 import AboutHeader from './components/AboutHeader';
 import Contact from './components/Contact';
 import ContactHeader from './components/ContactHeader';
-import Footer from './components/Footer';
 import WhatsApp from './components/WhatsApp';
+import Footer from './components/Footer';
 
 import 'aos/dist/aos.css';
 import './styles/App.css';
