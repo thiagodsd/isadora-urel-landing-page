@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import ContactHeader from './components/ContactHeader';
 import WhatsApp from './components/WhatsApp';
 import Footer from './components/Footer';
+import navigateAndLog from './components/navigateAndLog';
 
 import 'aos/dist/aos.css';
 import './styles/App.css';
@@ -43,7 +44,7 @@ function App() {
             <WhatsApp/> 
         </main>
         <Footer />
-        <div className="back-to-top-back">
+        <div className="back-to-top-back" onClick={() => navigateAndLog('#', 'back-to-top')} >
             <div className="back-to-top" onClick={scrollToTop} aria-label="Back to top"></div>
         </div>
     </div>
