@@ -69,19 +69,22 @@
     font-size: 1.5rem;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 992px) {
     .services-container {
-        flex-basis: var(--mobile-container-flex-basis);
-        flex-direction: var(--mobile-container-flex-direction);
-        padding: var(--mobile-container-padding);
+        padding-left: var(--spacing-xlarge);
+        padding-right: var(--spacing-xlarge);
+    }
+
+    .service {
+        flex-basis: 45%;
     }
 
     [data-aos="highlight"].aos-animate {
-        font-size: var(--mobile-font-size-medium);
+        font-size: var(--font-size-large);
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .services-container {
         flex-basis: var(--mobile-container-flex-basis);
         flex-direction: var(--mobile-container-flex-direction);

@@ -46,10 +46,22 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
+    .footer-container {
+        padding-left: var(--spacing-xlarge);
+        padding-right: var(--spacing-xlarge);
+    }
+}
+
+@media (max-width: 768px) {
     .footer-container {
         flex-basis: var(--mobile-container-flex-basis);
         flex-direction: var(--mobile-container-flex-direction);
         padding: var(--mobile-container-padding);
+    }
+
+    .footer-section .footer-text a,
+    .footer-section .footer-text p {
+        font-size: var(--mobile-font-size-small);
     }
 }

@@ -64,7 +64,18 @@
     color: #9AD6C7;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
+    .about-container {
+        padding-left: var(--spacing-xlarge);
+        padding-right: var(--spacing-xlarge);
+    }
+
+    .about-container .image-container img {
+        height: 22rem;
+    }
+}
+
+@media (max-width: 768px) {
     .about-container {
         flex-basis: var(--mobile-container-flex-basis);
         flex-direction: var(--mobile-container-flex-direction);

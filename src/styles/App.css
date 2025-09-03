@@ -4,6 +4,47 @@
     box-sizing: border-box;
 }
 
+/* Skip Navigation Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: var(--primary-color);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 1000;
+    border-radius: 4px;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* Focus Indicators */
+button:focus,
+a:focus,
+.hamburger:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.hamburger:focus {
+    background-color: rgba(80, 19, 87, 0.1);
+}
+
+/* Enhanced focus for navigation buttons */
+.menu button:focus {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+.atendimento-button:focus {
+    box-shadow: 0 0 0 3px rgba(80, 19, 87, 0.3);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -176,7 +217,29 @@ header nav ul li button:hover {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1100px) {
+/* Tablet breakpoint */
+@media (max-width: 992px) {
+    header {
+        padding-left: var(--spacing-xlarge);
+        padding-right: var(--spacing-xlarge);
+    }
+
+    .hero-container {
+        padding-left: var(--spacing-xlarge);
+        padding-right: var(--spacing-xlarge);
+    }
+
+    .hero-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .atendimento-button {
+        font-size: 1.25rem;
+    }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
     /* header */
     header {
         display: var(--mobile-container-display);
@@ -275,7 +338,9 @@ header nav ul li button:hover {
     .hero-image img {
         object-fit: cover;
         object-position: 50% 40%;
-        height: 40em;
+        height: 70vh;
+        min-height: 400px;
+        max-height: 600px;
     }
 
     .hero-image::after {
@@ -293,8 +358,10 @@ header nav ul li button:hover {
         display: flex;
         flex-direction: column;
         position: absolute;
-        bottom: 10%;
-        width: 100%;
+        bottom: 15%;
+        left: 5%;
+        right: 5%;
+        width: 90%;
         color: #ffffff;
         padding: 1rem;
         z-index: 5;

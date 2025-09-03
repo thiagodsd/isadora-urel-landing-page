@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import navigateAndLog from './navigateAndLog';
 
-import logo_image from '../assets/images/logo_03.png';
+import logo_image from '../assets/images/logo_02.png';
 
 
 const Header = () => {

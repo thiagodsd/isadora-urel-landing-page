@@ -12,11 +12,20 @@ import ContactHeader from './components/ContactHeader';
 import WhatsApp from './components/WhatsApp';
 import Footer from './components/Footer';
 import navigateAndLog from './components/navigateAndLog';
+import useScrollAnalytics from './components/useScrollAnalytics';
+import usePerformanceAnalytics from './components/usePerformanceAnalytics';
+import useErrorTracking from './components/useErrorTracking';
 
 import 'aos/dist/aos.css';
+import './index.css';
 import './styles/App.css';
 
 function App() {
+    // Initialize analytics hooks
+    useScrollAnalytics();
+    usePerformanceAnalytics();
+    useErrorTracking();
+    
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -32,8 +41,9 @@ function App() {
     }, []);
     return (
     <div className="app-container">
+        <a href="#main-content" className="skip-link">Pular para o conteúdo principal</a>
         <Header />
-        <main>
+        <main id="main-content">
             <Hero/>
             <ServicesHeader/>
             <Services/>

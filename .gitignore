@@ -59,3 +59,4 @@ yarn-error.log*
 
 # Optional: Other files and directories
 # Depending on your project, you might want to include other files/directories here.
+.firebase/*.cache

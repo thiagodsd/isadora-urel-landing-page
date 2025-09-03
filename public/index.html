@@ -57,15 +57,20 @@
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
         <!-- Canonical URL -->
-        <link rel="canonical" href="http://www.isadoraurel.com.br" />
+        <link rel="canonical" href="https://isadoraurel.adv.br/" />
 
         <!-- Alternate Language Versions -->
-        <link rel="alternate" hreflang="pt-BR" href="http://www.isadoraurel.com.br" />
+        <link rel="alternate" hreflang="pt-BR" href="https://isadoraurel.adv.br/" />
         <!-- <link rel="alternate" hreflang="en" href="http://www.isadoraurel.com.br/en" /> -->
 
         <!-- Preconnects -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
+        
+        <!-- Preload Critical Resources -->
+        <link rel="preload" href="%PUBLIC_URL%/favicon.ico" as="image" type="image/x-icon" />
+        <link rel="dns-prefetch" href="https://firebase.googleapis.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
         <!--
             <link rel="mask-icon" href="/path/to/icon.svg" color="#5bbad5" />
@@ -84,7 +89,7 @@
             "@context": "http://schema.org",
             "@type": "LegalService",
             "name": "Isadora Urel - Direito das Famílias, Sucessões e Planejamento Patrimonial",
-            "url": "http://www.isadoraurel.com.br",
+            "url": "https://isadoraurel.adv.br",
             "logo": "https://isadoraurel.adv.br/logo512.png",
             "sameAs": [
                 "https://www.instagram.com/isadoraurel",

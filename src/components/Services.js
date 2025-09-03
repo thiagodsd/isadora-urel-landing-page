@@ -18,7 +18,7 @@ function ServicesSection() {
             <div className="services-section">
                 <div className="service">
                     <div className="image-container">
-                        <img src={image_0} alt="Imagem de semente no início do processo de germinação" />
+                        <img src={image_0} alt="Imagem de semente no início do processo de germinação" loading="lazy" />
                         <p>
                             <span className="highlight-on-scroll" data-aos="highlight">&nbsp; Início da Vida &nbsp;</span>
                         </p>
@@ -34,7 +34,7 @@ function ServicesSection() {
                 </div>
                 <div className="service">
                     <div className="image-container">
-                        <img src={image_1} alt="Imagem de uma planta enraizando e desenvolvendo ramificações" />
+                        <img src={image_1} alt="Imagem de uma planta enraizando e desenvolvendo ramificações" loading="lazy" />
                         <p>
                             <span className="highlight-on-scroll" data-aos="highlight">&nbsp; Bases Sólidas &nbsp;</span>
                         </p>
@@ -50,7 +50,7 @@ function ServicesSection() {
                 </div>
                 <div className="service">
                     <div className="image-container">
-                        <img src={image_2} alt="Imagem de uma árvore em processo de enraizamento e crescimento" />
+                        <img src={image_2} alt="Imagem de uma árvore em processo de enraizamento e crescimento" loading="lazy" />
                         <p>
                             <span className="highlight-on-scroll" data-aos="highlight">&nbsp; Crescimento &nbsp;</span>
                         </p>
@@ -67,7 +67,7 @@ function ServicesSection() {
                 </div>
                 <div className="service">
                     <div className="image-container">
-                        <img src={image_3} alt="Imagem de uma árvore com a copa frutificando ao lado de cesta de frutas" />
+                        <img src={image_3} alt="Imagem de uma árvore com a copa frutificando ao lado de cesta de frutas" loading="lazy" />
                         <p>
                             <span className="highlight-on-scroll" data-aos="highlight">&nbsp; Legado &nbsp;</span>
                         </p>

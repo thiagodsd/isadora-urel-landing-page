@@ -14,7 +14,7 @@ function ContactSection() {
                 <div className="contact-list">
                     <div className="contact">
                         <div className="contact-image">
-                            <img src={contact_00_img} alt="Atendimento" />
+                            <img src={contact_00_img} alt="Atendimento" loading="lazy" />
                         </div>
                         <div className="contact-text">
                             <h2>Atendimento</h2>
@@ -29,7 +29,7 @@ function ContactSection() {
                     </div>
                     <div className="contact">
                         <div className="contact-image">
-                            <img src={contact_01_img} alt="Consultoria" />
+                            <img src={contact_01_img} alt="Consultoria" loading="lazy" />
                         </div>
                         <div className="contact-text">
                             <h2>Consultoria</h2>
@@ -46,7 +46,7 @@ function ContactSection() {
                     <div className="contact-list">
                     <div className="contact">
                         <div className="contact-image">
-                            <img src={contact_02_img} alt="Parceria" />
+                            <img src={contact_02_img} alt="Parceria" loading="lazy" />
                         </div>
                         <div className="contact-text">
                             <h2>Parceria</h2>
@@ -62,7 +62,7 @@ function ContactSection() {
 
                     <div className="contact">
                         <div className="contact-image">
-                            <img src={contact_03_img} alt="Mentoria" />
+                            <img src={contact_03_img} alt="Mentoria" loading="lazy" />
                         </div>
                         <div className="contact-text">
                             <h2>Mentoria</h2>
